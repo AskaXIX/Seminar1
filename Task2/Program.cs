@@ -4,23 +4,6 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-// System.Console.Write("First number: ");
-// int first_number = Convert.ToInt32(System.Console.ReadLine());
-
-// System.Console.Write("Second number: ");
-// int second_number = Convert.ToInt32(System.Console.ReadLine());
-
-// System.Console.Write("Third number: ");
-// int third_number = Convert.ToInt32(System.Console.ReadLine());
-
-// int max = first_number;
-
-// if (first_number > max ) max = first_number;
-// if (second_number > max ) max = second_number;
-// if (third_number > max ) max = third_number;
-
-// System.Console.WriteLine($" Max = {max}!");
-
 int a = 2, b = 3, c = 7,
     a1 = 44, b1 = 5, c1 = 78,
     a2 = 22, b2 = 3, c2 = 9;
@@ -49,3 +32,22 @@ if (c2 > third_max) third_max = c2;
 
 System.Console.WriteLine($"3. {a2} ~ {b2} ~ {c2}?");
 System.Console.WriteLine($"   Max = {third_max}");
+
+//Так же альернативный код:
+
+// System.Console.Write("First number: ");
+// int first_number = Convert.ToInt32(System.Console.ReadLine());
+
+// System.Console.Write("Second number: ");
+// int second_number = Convert.ToInt32(System.Console.ReadLine());
+
+// System.Console.Write("Third number: ");
+// int third_number = Convert.ToInt32(System.Console.ReadLine());
+
+// int max = first_number;
+
+// if (first_number > max ) max = first_number;
+// if (second_number > max ) max = second_number;
+// if (third_number > max ) max = third_number;
+
+// System.Console.WriteLine($" Max = {max}!");
